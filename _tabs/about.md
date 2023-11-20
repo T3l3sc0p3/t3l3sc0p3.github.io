@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> >~<
+> Short introduction ._.
 {: .prompt-info }
 
 - Hi, I'm Mirai and I'm just a random CTF player~
