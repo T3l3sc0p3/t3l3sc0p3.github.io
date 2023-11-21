@@ -15,7 +15,7 @@ Hi, vừa rồi CLB ATTT của trường HUTECH vừa tổ chức giải CTF dà
 
 Bài này như là Sanity Check với nhắc cho mọi người về format của flag thôi
 
-```Flag: HUTECH_CTF{Some_Thing}```
+`Flag: HUTECH_CTF{Some_Thing}`
 
 # Web
 
@@ -37,7 +37,7 @@ Tới đây thì ta thấy web đã lọc hết các ký tự đó, tuy nhiên c
 
 Chỉ với command `ls /` là có thể thấy ngay file flag.txt. Giờ ta chỉ cần `cat /flag.txt` nữa là xong
 
-```Flag: HUTECH_CTF{You_are_master_CMD_Injection}```
+`Flag: HUTECH_CTF{You_are_master_CMD_Injection}`
 
 ### Note
 
@@ -62,11 +62,12 @@ Khi mình thử đến `../../../../etc/passwd`, kết quả trả về không c
 Mà nếu đã không xem được trên web thì ta tải xuống xem thôi
 
 ```sh
-wget http://hutechctf.notrespond.com:8898/view.php?file_name=../../../../etc/passwd```
+wget http://hutechctf.notrespond.com:8898/view.php?file_name=../../../../etc/passwd
+```
 
 ![flag](https://i.imgur.com/J76V0Kt.png)
 
-```Flag: HUTECH_CTF{You_are_Hacker_101}```
+`Flag: HUTECH_CTF{You_are_Hacker_101}`
 
 # Reverse
 
@@ -78,7 +79,7 @@ Bài này chỉ cần [tải file](https://hutechctf.notrespond.com/files/158a89
 
 Ngoài ra còn cách khác tà ma hơn là chạy command `strings Password.exe | grep HUTECH_CTF{` nhưng cái này chỉ áp dụng được với mấy bài dễ thôi
 
-```Flag: HUTECH_CTF{Wellcome_Learn_Reversing}```
+`Flag: HUTECH_CTF{Wellcome_Learn_Reversing}`
 
 # Crypto
 
@@ -105,7 +106,8 @@ c = pow(m, e, N)
 print('p=', p)
 print('e=', e)
 print('N=', N)
-print('c=', c)```
+print('c=', c)
+```
 
 output.txt:
 ```*No hint
@@ -113,9 +115,11 @@ output.txt:
 N= 944277460928218727444425796671228006440681423958756385944259965777648467343805051250778307
 p= 1187132467668222120649135047910661042340315271
 e= 65537
-c= 509304373433095933741721585884760854821638120979366068441534204508880522869949802723478795```
+c= 509304373433095933741721585884760854821638120979366068441534204508880522869949802723478795
+```
 
 Bài này sử dụng hàm số Euler để decrypt, nhưng chi tiết thì mình không thật sự hiểu do mình chỉ copy code từ Google về chạy :(
+
 solve.py:
 ```py
 from Crypto.Util.number import long_to_bytes
@@ -133,16 +137,17 @@ phi_N = (p - 1) * (q - 1)
 d = pow(e, -1, phi_N)
 m = pow(c, d, N)
 flag = long_to_bytes(m)
-print('The flag is:', flag.decode('utf-8'))```
+print('The flag is:', flag.decode('utf-8'))
+```
 
-```Flag: HUTECH_CTF{RSA_is_great_encryption}```
+`Flag: HUTECH_CTF{RSA_is_great_encryption}`
 
 Mấy bài khác thì mình chịu nhưng mình sẽ update thêm nếu giải ra ._.
 
 ## References:
 
 Đây là 2 challenges của Cookie Hân Hoan dành cho bạn nào muốn làm thêm:
-- https://battle.cookiearena.org/challenges/web/ping-0x01
-- https://battle.cookiearena.org/challenges/web/ping-0x02
+- [https://battle.cookiearena.org/challenges/web/ping-0x01](https://battle.cookiearena.org/challenges/web/ping-0x01)
+- [https://battle.cookiearena.org/challenges/web/ping-0x02](https://battle.cookiearena.org/challenges/web/ping-0x02)
 Path Traversal:
-- https://viblo.asia/p/tim-hieu-ve-tan-cong-path-travelsal-m68Z0xQ2ZkG
+- [https://viblo.asia/p/tim-hieu-ve-tan-cong-path-travelsal-m68Z0xQ2ZkG](https://viblo.asia/p/tim-hieu-ve-tan-cong-path-travelsal-m68Z0xQ2ZkG)
