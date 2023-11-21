@@ -23,11 +23,11 @@ Bài này như là Sanity Check với nhắc cho mọi người về format củ
 
 ![p1ng](https://i.imgur.com/EBikeGi.png)
 
-Truy cập thì mình thấy giao diện của "Ping Tool", điều này đã gợi nhớ cho mình về 2 ping challenges của Cookie Hân Hoan ([Ping 0x01](https://battle.cookiearena.org/challenges/web/ping-0x01) | [Ping 0x02](https://battle.cookiearena.org/challenges/web/ping-0x02)). Và thực sự cách giải bài này cũng giống vậy
+Truy cập thì mình thấy giao diện của "Ping Tool", điều này đã gợi nhớ cho mình về 2 ping challenges của Cookie Hân Hoan ([Ping 0x01](https://battle.cookiearena.org/challenges/web/ping-0x01), [Ping 0x02](https://battle.cookiearena.org/challenges/web/ping-0x02)) và thực sự cách giải bài này cũng giống vậy
 
 Đầu tiên khởi động Burp Suite, bật intercept để bắt request rồi chuyển sang tab Repeater để test cho tiện
 
-Và vì mình chắc 10 tỷ phần trăm đây là lỗi Command Injection, nên mình sẽ chèn command bằng cách thêm các ký tự như ';', "&&", "||" + với command thực thi
+Vì mình chắc 10 tỷ phần trăm đây là lỗi Command Injection, nên mình sẽ chèn command bằng cách thêm các ký tự như `;`, `&&`, `||` + với command thực thi
 
 ![Don't hack me](https://i.imgur.com/neJ8pPk.png)
 
@@ -49,7 +49,7 @@ Nhưng nếu không có thì mình sẽ chạy `env` để check hoặc tìm h�
 
 ![r0t m0n](https://i.imgur.com/IFqxkyZ.png)
 
-Sau khi vào web và click thử vào mục "View", mình nhận ra web sẽ hiển thị các hình ảnh bằng cách truy cập file **ctdl.png** thông qua endpoint `file_name`
+Sau khi vào web và click thử vào button "View", mình nhận ra web sẽ hiển thị các hình ảnh bằng cách truy cập file **ctdl.png** thông qua endpoint `file_name`
 
 ![file_name](https://i.imgur.com/pwlyYdL.png)
 
@@ -110,7 +110,8 @@ print('c=', c)
 ```
 
 output.txt:
-```*No hint
+```
+*No hint
 
 N= 944277460928218727444425796671228006440681423958756385944259965777648467343805051250778307
 p= 1187132467668222120649135047910661042340315271
@@ -149,5 +150,6 @@ Mấy bài khác thì mình chịu nhưng mình sẽ update thêm nếu giải r
 Đây là 2 challenges của Cookie Hân Hoan dành cho bạn nào muốn làm thêm:
 - [https://battle.cookiearena.org/challenges/web/ping-0x01](https://battle.cookiearena.org/challenges/web/ping-0x01)
 - [https://battle.cookiearena.org/challenges/web/ping-0x02](https://battle.cookiearena.org/challenges/web/ping-0x02)
+
 Path Traversal:
 - [https://viblo.asia/p/tim-hieu-ve-tan-cong-path-travelsal-m68Z0xQ2ZkG](https://viblo.asia/p/tim-hieu-ve-tan-cong-path-travelsal-m68Z0xQ2ZkG)
