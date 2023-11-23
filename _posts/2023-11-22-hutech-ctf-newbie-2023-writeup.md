@@ -33,6 +33,10 @@ Truy cập thì mình thấy giao diện của "Ping Tool", điều này đã g�
 
 Vì mình chắc 10 tỷ phần trăm đây là lỗi Command Injection, nên mình sẽ chèn command bằng cách thêm các ký tự như `;`, `&&`, `||` + với command thực thi
 
+```sh
+127.0.0.1;ls
+```
+
 ![Don't hack me](https://i.imgur.com/neJ8pPk.png)
 
 Tới đây thì ta thấy web đã lọc hết các ký tự đó, tuy nhiên có vẻ nó không lọc tất cả mà vẫn còn sót lại dấu xuống dòng (như 2 ping challenge mình nhắc ở trên). You know what to do next =))
@@ -79,7 +83,7 @@ wget http://hutechctf.notrespond.com:8898/view.php?file_name=../../../../etc/pas
 
 ![HUTECHRev2](https://i.imgur.com/loG4HRZ.png)
 
-Bài này chỉ cần [tải file](https://hutechctf.notrespond.com/files/158a89433f2b473d419dbf4d7ac5b62c/Password.rar) về rồi mở Ghidra lên đọc file là thấy ngay flag, cũng không đáng để viết writeup nhưng đây là bài reverse duy nhất mình làm được
+Bài này chỉ cần [tải file](https://hutechctf.notrespond.com/files/158a89433f2b473d419dbf4d7ac5b62c/Password.rar) về rồi mở Ghidra lên để analyze file là thấy ngay flag, cũng không đáng để viết writeup lắm
 
 Ngoài ra còn cách khác tà ma hơn là chạy command `strings Password.exe | grep HUTECH_CTF{` nhưng cái này chỉ áp dụng được với mấy bài dễ thôi
 
