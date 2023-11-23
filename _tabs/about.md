@@ -8,3 +8,5 @@ order: 4
 {: .prompt-info }
 
 - Hi, I'm Mirai and I'm just a random CTF player~
+
+![Blogging](https://i.imgur.com/QSWFdvU.gif)
