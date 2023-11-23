@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Hutech CTF Newbie 2023 Writeup
-tags: writeup, web, crypto, reverse
+tags: [writeup, web, crypto, reverse]
 date: 2023-11-22 00:00 +0700
+img_path: '/assets/img/writeups/hutech-ctf-newbie-2023/'
+image:
+  path: banner.jpg
 ---
 
 Hi, vừa rồi CLB ATTT của trường HUTECH vừa tổ chức giải CTF dành cho tân sinh viên và mình cũng giải được vài challenges trong đó. Dưới đây là writeup về những bài mình đã giải được
