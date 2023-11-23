@@ -3,6 +3,7 @@
   # Kuriyama Mirai's Homepage
 
   A blog used to write about CTF, coding, etc
+  
   <img src="https://i.imgur.com/QSWFdvU.gif" />
 </div>
 
