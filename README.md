@@ -1,6 +1,6 @@
 <div align="center">
 
-  # Kuriyama Mirai's Homepage
+  # Kuriyama Mirai's Blog
 
   A blog used to write about CTF, coding, etc
   
