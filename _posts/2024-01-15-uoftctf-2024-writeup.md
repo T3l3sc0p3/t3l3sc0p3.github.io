@@ -23,7 +23,7 @@ It was just a sanity check~
 
 `Flag: UofTCTF{600d_1uck}`
 
-Btw, this is the Discord link of the contest: https://discord.gg/Un7avdkq7Z
+Btw, this is the Discord link of the contest: [https://discord.gg/Un7avdkq7Z](https://discord.gg/Un7avdkq7Z)
 
 # IoT
 
@@ -39,9 +39,9 @@ Yea, I understand the mission lol
 
 ![Baby's First IoT Flag 1](iot/baby-first-iot-flag-1.png)
 
-First, I search "FCC ID, Q87-WRT54GV81" on Google and found some results like: https://fccid.io/Q87-WRT54GV81
+First, I search "FCC ID, Q87-WRT54GV81" on Google and found some results like: [https://fccid.io/Q87-WRT54GV81](https://fccid.io/Q87-WRT54GV81)
 
-After then, I click on "Frequency Range" and go to this link: https://fccid.io/frequency-explorer.php?lower=2412.00000000&upper=2462.00000000
+After then, I click on "Frequency Range" and go to this link: [https://fccid.io/frequency-explorer.php?lower=2412.00000000&upper=2462.00000000](https://fccid.io/frequency-explorer.php?lower=2412.00000000&upper=2462.00000000)
 
 Lastly, I take the value from "Frequency Center" is `2437` MHz and send it to port 3895 to get the flag
 
@@ -53,7 +53,7 @@ Lastly, I take the value from "Frequency Center" is `2437` MHz and send it to po
 
 ![Out of the Bucket](miscellaneous/out-of-the-bucket.png)
 
-After examining the url for a while, I saw an XML file when accessing https://storage.googleapis.com/out-of-the-bucket/
+After examining the url for a while, I saw an XML file when accessing [https://storage.googleapis.com/out-of-the-bucket/](https://storage.googleapis.com/out-of-the-bucket/)
 
 As you can see in the image below, there is a file named **dont_show** in **secret** directory
 
