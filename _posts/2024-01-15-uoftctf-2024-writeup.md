@@ -161,7 +161,7 @@ Most people attempt to bypass this by changing the JSON Web Token (JWT) token. H
 
 Upon closer inspection, I discover that the `parseInt()` function has a weird behavior as you can see in the image below:
 
-[![parseInt](web/the-varsity-3.png)](https://www.w3schools.com/jsref/jsref_parseint.asp)
+<p align="center"><a href="https://www.w3schools.com/jsref/jsref_parseint.asp"><img src="web/the-varsity-3.png" alt="parseInt"></a></p>
 
 By modifying the value `{"issue":"9"}` to `{"issue":"9 8"}` or any other similar value, we can access the article that contains the flag
 
