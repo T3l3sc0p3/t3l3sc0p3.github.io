@@ -29,7 +29,7 @@ Btw, this is the Discord link of the contest: [https://discord.gg/Un7avdkq7Z](ht
 
 ## Baby's First IoT Introduction (10 pts)
 
-![Baby's First IoT Introduction](Iot/img/babys-first-iot-introduction.png)
+![Baby's First IoT Introduction](IoT/img/babys-first-iot-introduction.png)
 
 Yea, I understand the mission lol
 
@@ -37,7 +37,7 @@ Yea, I understand the mission lol
 
 ## Baby's First IoT Flag 1 (100 pts)
 
-![Baby's First IoT Flag 1](Iot/img/baby-first-iot-flag-1.png)
+![Baby's First IoT Flag 1](IoT/img/baby-first-iot-flag-1.png)
 
 First, I search "FCC ID, Q87-WRT54GV81" on Google and found some results like: [https://fccid.io/Q87-WRT54GV81](https://fccid.io/Q87-WRT54GV81)
 
