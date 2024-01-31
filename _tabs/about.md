@@ -9,4 +9,4 @@ order: 4
 
 - Hi, I'm Mirai and I'm just a random CTF player~
 
-![Blogging](https://i.imgur.com/QSWFdvU.gif)
+![Blogging](https://raw.githubusercontent.com/T3l3sc0p3/CDN-for-personal-use/Kuriyama-Mirai/gifs/writing-blog.gif)
