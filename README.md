@@ -3,8 +3,9 @@
   # Kuriyama Mirai's Blog
 
   A blog used to write about CTF, coding, etc
-  
-  <img src="https://i.imgur.com/QSWFdvU.gif" />
+
+  <img src="https://i.imgur.com/QSWFdvU.gif" alt="blog">
+
 </div>
 
 ## Credits
@@ -21,7 +22,7 @@ Last but not least, thanks to [JetBrains][jetbrains] for providing the _Open Sou
 
 This project is published under [MIT License][license].
 
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
+[license]: https://github.com/T3l3sc0p3/t3l3sc0p3.github.io/blob/master/LICENSE
 [jekyllrb]: https://jekyllrb.com/
 [bootstrap]: https://getbootstrap.com/
 [icons]: https://fontawesome.com/
