@@ -32,7 +32,7 @@ def main(file_path, tag):
     repo_user = os.getenv("repo_user")
     repo_name = os.getenv("repo_name")
     branch = os.getenv("branch")
-    dirc = os.getenv("directory")
+    dirc = os.getenv("gifs_dir")
     links = get_links(token, repo_user, repo_name, branch, dirc)
     update(file_path, random.choice(links), tag)
 
