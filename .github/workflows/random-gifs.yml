@@ -33,8 +33,8 @@ jobs:
 
       - name: Create random avatar + gifs
         run: |
-            python ".github/script/random_gif.py" "README.md" "div"
-            python ".github/script/random_avatar.py" "_config.yml"
+            python ".github/script/random-gif.py" "README.md" "div"
+            python ".github/script/random-avatar.py" "_config.yml"
             if [[ $(git status --porcelain) ]]; then
                 git config --local user.name "github-actions[bot]"
                 git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
