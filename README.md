@@ -4,7 +4,7 @@
 
   A blog used to write about CTF, coding, etc
 
-  <img src="https://raw.githubusercontent.com/T3l3sc0p3/CDN-for-personal-use/Kuriyama-Mirai/gifs/cold.gif" alt="blog">
+  <img src="https://raw.githubusercontent.com/T3l3sc0p3/CDN-for-personal-use/Kuriyama-Mirai/gifs/fly.gif" alt="blog">
 
 </div>
 
