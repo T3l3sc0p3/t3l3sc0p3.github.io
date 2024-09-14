@@ -16,7 +16,7 @@
 - [Hutech CTF Newbie 2023 Writeup](https://t3l3sc0p3.github.io/posts/hutech-ctf-newbie-2023-writeup/)
 <!-- Fetch-Blog-Post:End -->
 
-## Documents
+## :book: Documents
 
 - Syntax: https://chirpy.cotes.page/posts/text-and-typography/
 
