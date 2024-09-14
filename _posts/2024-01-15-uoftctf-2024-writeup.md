@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UofTCTF 2024 Writeup
-categories: [writeup]
+categories: [CTF, Writeup]
 tags: [web, jail, forensics, misc, iot]
 date: 2024-01-15 22:42 +0700
 img_path: 'https:////raw.githubusercontent.com/T3l3sc0p3/ctf-writeups/master/UofTCTF-2024/'

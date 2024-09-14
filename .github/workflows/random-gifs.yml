@@ -1,10 +1,11 @@
-name: Create Random Avatar + GIFs
+name: Create Random GIFs
 
 on:
   schedule:
     - cron: "0 3 1 * *"
     - cron: "0 3 15 */2 *"
     - cron: "0 0 31 3 *"
+  workflow_dispatch:
 permissions:
     contents: write
 
@@ -31,15 +32,15 @@ jobs:
             python -m pip install --upgrade pip
             pip install requests pyyaml
 
-      - name: Create random avatar + gifs
+      - name: Create random gifs
         run: |
             python ".github/script/random-gif.py" "README.md" "div"
-            python ".github/script/random-avatar.py" "_config.yml"
+            # python ".github/script/random-avatar.py" "_config.yml"
             if [[ $(git status --porcelain) ]]; then
                 git config --local user.name "github-actions[bot]"
                 git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
                 git add -A
-                git commit -m "Create random Avatar + GIFs"
+                git commit -m "Create random GIFs"
                 git push
             else
                 echo "No changes detected"

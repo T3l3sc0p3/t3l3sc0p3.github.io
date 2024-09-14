@@ -1,7 +1,7 @@
 ---
 layout: post
 title: KnightCTF 2024 Writeup
-categories: [writeup]
+categories: [CTF, Writeup]
 tags: [web, pwn, stegano]
 date: 2024-01-26 01:58 +0700
 img_path: 'https:////raw.githubusercontent.com/T3l3sc0p3/ctf-writeups/master/KnightCTF-2024/'

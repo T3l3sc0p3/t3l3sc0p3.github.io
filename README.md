@@ -1,8 +1,8 @@
 <div align="center">
 
-  # Kuriyama Mirai's Blog
+  # Henry Scott's Blog
 
-  A blog used to write about CTF, coding, etc
+  A blog used to write about Research, CTF, Coding...
 
   <img src="https://raw.githubusercontent.com/T3l3sc0p3/CDN-for-personal-use/Kuriyama-Mirai/gifs/research.gif" alt="blog">
 
@@ -15,6 +15,10 @@
 - [UofTCTF 2024 Writeup](https://t3l3sc0p3.github.io/posts/uoftctf-2024-writeup/)
 - [Hutech CTF Newbie 2023 Writeup](https://t3l3sc0p3.github.io/posts/hutech-ctf-newbie-2023-writeup/)
 <!-- Fetch-Blog-Post:End -->
+
+## Documents
+
+- Syntax: https://chirpy.cotes.page/posts/text-and-typography/
 
 ## License
 
