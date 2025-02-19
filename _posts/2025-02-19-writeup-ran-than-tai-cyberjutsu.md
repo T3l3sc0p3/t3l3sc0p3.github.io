@@ -15,7 +15,7 @@ Vào việc thôi~
 
 ![Writeup](ran-than-tai.png)
 
-Link: [http://206.189.39.54:8085/](http://206.189.39.54:8085/)
+Link: `http://206.189.39.54:8085/`
 
 Như mọi khi, việc đầu tiên mình làm chính là recon, xem source trước, và mình tìm được ngay Easter Egg đầu tiên
 
