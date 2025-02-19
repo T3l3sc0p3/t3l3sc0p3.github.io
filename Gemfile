@@ -22,3 +22,8 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'logger'
+gem 'csv'
+gem 'ostruct'
+gem 'base64'
+gem 'bigdecimal'
