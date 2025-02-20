@@ -75,7 +75,9 @@ Tận dụng vuln này, mình đã có thể lấy được `/tmp/FLAG_WEB`. Tuy
 
 Hmm, hồi đầu khi recon, mình có tìm được 1 file `/appsettings.json`, thế tại sao ta lại không thử luôn nhỉ?
 
-Vậy là chỉ sau 2 lần `../`, mình đã có được Easter Egg cuối cùng :3
+Và vậy là chỉ sau 2 lần `../`, mình đã có được Easter Egg cuối cùng :3
+
+![](easter-egg-4.png)
 
 `Easter Egg 4: CBJS_EASTER_EGG{Part 4: VMNp}`
 
@@ -128,7 +130,7 @@ Table: CyberJutsu
 
 Còn lại flag 2, lúc nãy mình đã thử đọc thông qua lỗ hổng **Path Traversal** nhưng không được, nên mình suy đoán ta chỉ có thể đọc bằng lỗ hổng **SQL Injection**
 
-Để đọc được cũng không khó, từ lần chạy `sqlmap`, mình đã biết đây là **Microsoft SQL Server** hay **MSSQL**
+Để đọc được cũng không khó, từ lần chạy `sqlmap` cũng như Easter Egg 4, mình đã biết đây là **Microsoft SQL Server** hay **MSSQL**
 
 Research một tí, mình tìm được cách đọc file trong MSSQL bằng cách dùng [OPENROWSET](https://www.geeksforgeeks.org/reading-a-text-file-with-sql-server/). Vậy giờ ta chỉ cần xác định số lượng columns rồi lụm flag
 
