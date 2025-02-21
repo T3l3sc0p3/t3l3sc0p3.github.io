@@ -4,7 +4,7 @@ title: Hutech CTF Newbie 2023 Writeup
 categories: [CTF, Writeup]
 tags: [web, crypto, reverse]
 date: 2023-11-22 00:00 +0700
-img_path: '/assets/img/writeups/hutech-ctf-newbie-2023/'
+media_subpath: '/assets/img/writeups/hutech-ctf-newbie-2023/'
 image:
   path: banner.jpg
 ---

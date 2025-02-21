@@ -4,7 +4,7 @@ title: Writeup Challenge Rắn Thần Tài CyberJutsu
 categories: [CTF, Writeup]
 tags: [web, lfi, sqli, bac]
 date: 2025-02-19 18:39 +0700
-img_path: '/assets/img/writeups/ran-than-tai-cbjs-2025/'
+media_subpath: '/assets/img/writeups/ran-than-tai-cbjs-2025/'
 image:
   path: banner.png
 ---
