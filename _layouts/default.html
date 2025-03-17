@@ -14,6 +14,7 @@ layout: compress
 
 <!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="{{ page.lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
+<link rel="stylesheet" href="{{ '/assets/css/sakura.css' | relative_url }}">
   {% include head.html %}
 
   <body>
@@ -73,6 +74,12 @@ layout: compress
     {% if site.pwa.enabled %}
       {% include_cached notification.html lang=lang %}
     {% endif %}
+    <script src="{{ '/assets/js/plugin/sakura.js' | relative_url }}"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            new Sakura('body');
+        });
+    </script>
 
     <!-- Embedded scripts -->
 
