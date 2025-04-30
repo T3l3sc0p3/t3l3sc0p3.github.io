@@ -9,7 +9,7 @@ image:
   path: banner.png
 ---
 
-Recently, I cleared all web challenges in CTF@CIT 2025 and this is my writeup about it. Hope you like it~
+Recently, I cleared all web challenges in CTF@CIT 2025 and this is my writeup about that. Hope you like it~
 
 ## Breaking Authentication (750 pts)
 
@@ -206,5 +206,7 @@ Now I just need to `cat secrets.txt` file
 ![flag](Web/img/mrchatbot-flag.png)
 
 `Flag: CIT{18a7fbedb4f3548f}`
+
+Thanks for reading :))
 
 ![clear](https://i.imgur.com/sptDLTz.png)
