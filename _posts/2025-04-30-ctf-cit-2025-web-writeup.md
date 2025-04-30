@@ -2,7 +2,7 @@
 layout: post
 title: CTF@CIT 2025 Web Writeup
 categories: [CTF, Writeup]
-tags: [web, lfi, sqli]
+tags: [web, lfi, sqli, ssti, git]
 date: 2025-04-30 05:12 +0900
 media_subpath: 'https:////raw.githubusercontent.com/T3l3sc0p3/ctf-writeups/master/CTF%40CIT-2025/'
 image:
