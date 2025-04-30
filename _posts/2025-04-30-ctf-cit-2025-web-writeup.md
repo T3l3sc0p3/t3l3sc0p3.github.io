@@ -11,7 +11,7 @@ image:
 
 Recently, I cleared all web challenges in CTF@CIT 2025 and this is my writeup about it. Hope you like it~
 
-# Breaking Authentication (750 pts)
+## Breaking Authentication (750 pts)
 
 ![BreakingAuthentication](Web/img/breakingauthentication.png)
 
@@ -45,7 +45,7 @@ Table: users
 
 `Flag: CIT{36b0efd6c2ec7132}`
 
-# Commit & Order: Version Control Unit (782 pts)
+## Commit & Order: Version Control Unit (782 pts)
 
 ![CommitOrderVersionControlUnit](Web/img/commitorderversioncontrolunit.png)
 
@@ -71,7 +71,7 @@ This is a base64, so I decode it and get the flag
 
 `Flag: CIT{5d81f7743f4bc2ab}`
 
-# How I Parsed your JSON (868 pts)
+## How I Parsed your JSON (868 pts)
 
 ![HowIParsedyourJSON](Web/img/howiparsedyourjson.png)
 
@@ -124,7 +124,7 @@ Combine all of these, I tested `/select?record=*&container=....//secrets.txt.txt
 
 `Flag: CIT{235da65aa6444e27}`
 
-# Keeping Up with the Credentials (970 pts)
+## Keeping Up with the Credentials (970 pts)
 
 ![KeepingUpwiththeCredentials](Web/img/keepingupwiththecredentials.png)
 
@@ -169,7 +169,7 @@ This time, it redirected me to `/admin.php` and I got the flag
 
 `Flag: CIT{7bf610e96ade83db}`
 
-# Mr. Chatbot (973 pts)
+## Mr. Chatbot (973 pts)
 
 ![MrChatbot](Web/img/mrchatbot.png)
 
