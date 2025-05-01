@@ -11,6 +11,7 @@
 ## :closed_book: Latest Blog Posts
 
 <!-- Fetch-Blog-Post:Start -->
+- [CTF@CIT 2025 Web Writeup](https://t3l3sc0p3.github.io/posts/ctf-cit-2025-web-writeup/)
 - [Writeup Challenge Rắn Thần Tài CyberJutsu](https://t3l3sc0p3.github.io/posts/writeup-ran-than-tai-cyberjutsu/)
 - [KnightCTF 2024 Writeup](https://t3l3sc0p3.github.io/posts/knightctf-2024-writeup/)
 - [UofTCTF 2024 Writeup](https://t3l3sc0p3.github.io/posts/uoftctf-2024-writeup/)
